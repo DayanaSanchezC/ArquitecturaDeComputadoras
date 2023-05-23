@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="h.css">
+    <title>Unidad 4</title>
+</head>
+
+<body>
+    <section class="hero-section">
+        <section class="sec">
+            <header>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Unidad1.html">Unidad 1</a></li>
+                    <li><a href="Unidad2.html">Unidad 2</a></li>
+                    <li><a href="Unidad3.html">Unidad 3</a></li>
+                    <li><a href="Unidad4.html">Unidad 4</a></li>
+                    <li><a href="Practicas.html">Practicas</a></li>
+                </ul>
+            </header>
+            <div class="dropdown">
+                <div class="tab">Temas</div>
+                <div class="dropdown-content">
+                    <a href="#seccion1">4.1 ASPECTOS BÁSICOS DE LA COMPUTACIÓN PARALELA</a>
+                    <a href="#seccion2">4.2 TIPOS DE COMPUTACIÓN PARALELA</a>
+                    <a href="#seccion3">4.2.1 CLASIFICACIÓN</a>
+                    <a href="#seccion4">4.2.2 ARQUITECTURA DE COMPUTADORES SECUENCIALES</a>
+                    <a href="#seccion5">4.2.3 ORGANIZACIÓN DE DIRECCIONES DE MEMORIA</a>
+                    <a href="#seccion6">4.3 SISTEMA DE MEMORIA (COMPARTIDA)</a>
+                    <a href="#seccion7">4.3.1 REDES DE INTERCONEXIÓN DINÁMICA (INDIRECTA)</a>
+                    <a href="#seccion8">4.4 SISTEMAS DE MEMORIA DISTRIBUIDA</a>
+                    <a href="#seccion9">4.4.1 REDES DE INTERCONEXIÓN ESTÁTICAS</a>
+                    <a href="#seccion10">4.5 CASOS PARA ESTUDIO</a>
+                </div>
+            </div>
+            <div class="cont">
+                <br><br>
+                <section id="seccion1">
+                    <h2>4.1 Aspectos Básicos de la Computación Paralela</h2>
+                </section>
+                <p>La computación paralela es una disciplina que se ocupa del diseño y desarrollo de sistemas
+                    computacionales que utilizan múltiples procesadores o núcleos de procesamiento para realizar tareas
+                    de
+                    manera simultánea. Algunos aspectos básicos importantes de la computación paralela incluyen:</p>
+                <br>
+                <p> 1. Paralelismo: La capacidad de realizar múltiples tareas de forma simultánea. Se busca dividir un
+                    problema en partes más pequeñas y resolver cada una de ellas en paralelo.</p>
+                <br>
+                <p> 2. Rendimiento: Uno de los principales objetivos de la computación paralela es mejorar el
+                    rendimiento de
+                    los sistemas computacionales. Al dividir una tarea en partes más pequeñas y ejecutarlas
+                    simultáneamente,
+                    se puede lograr un procesamiento más rápido y eficiente.</p>
+                <br>
+                <p>3. Granularidad: La granularidad se refiere al tamaño de las tareas que se pueden paralelizar. Puede
+                    variar desde tareas muy pequeñas y específicas hasta tareas más grandes y completas.</p>
+                <br>
+                <p>4. Comunicación y sincronización: En los sistemas de computación paralela, los diferentes
+                    procesadores o
+                    núcleos de procesamiento deben comunicarse y sincronizarse entre sí para compartir datos y coordinar
+                    las
+                    tareas. Esto implica el diseño de mecanismos eficientes de comunicación y sincronización.</p>
+                    <br>
+                    <img src="https://1.bp.blogspot.com/-K8AKJh-nS18/UpfrJV7yHDI/AAAAAAAAAJA/0NK1lC4pJKg/s1600/computacion+paralela.jpg" alt="" class="img">
+                    <section id="seccion2">
+                    <h2>.</h2>
+                </section>
+                <h2>4.2 Tipos de Computación Paralela</h2>
+                <p>
+                    Existen diferentes tipos de computación paralela, cada uno de los cuales se utiliza en diferentes
+                    escenarios y aplicaciones. Algunos de los tipos más comunes incluyen: </p>
+                <section id="seccion3">
+                    <h2>.</h2>
+                </section>
+                <h2>4.2.1 Clasificación</h2>
+
+
+                <p>- Computación paralela a nivel de instrucción: Se basa en la ejecución simultánea de múltiples
+                    instrucciones en diferentes unidades de procesamiento. Esto se logra mediante la segmentación de las
+                    instrucciones y la ejecución en etapas.</p>
+                <br>
+                <p>- Computación paralela a nivel de datos: Se refiere a la ejecución simultánea de la misma operación
+                    en
+                    diferentes conjuntos de datos. Esto se utiliza en aplicaciones donde se pueden realizar operaciones
+                    idénticas en diferentes elementos de datos de manera independiente.</p>
+                <br>
+                <p>- Computación paralela a nivel de tarea: Se basa en la división de una tarea en subconjuntos más
+                    pequeños y su ejecución en diferentes procesadores o núcleos de procesamiento. Cada subconjunto de
+                    tareas puede ejecutarse de forma independiente.</p>
+                <section id="seccion4">
+                    <h2>.</h2>
+                </section>
+                <h2>4.2.2 Arquitectura de Computadores Secuenciales</h2>
+
+                <p>La arquitectura de computadores secuenciales se refiere a los sistemas que ejecutan instrucciones de
+                    forma secuencial, una después de otra. Estos sistemas tienen un único flujo de control y una única
+                    unidad de procesamiento que ejecuta las instrucciones en orden.</p>
+                <br>
+                <p>En este tipo de arquitectura, las instrucciones se almacenan en memoria y se recuperan
+                    secuencialmente
+                    para su ejecución. Los procesadores secuenciales están diseñados para ejecutar instrucciones de
+                    manera
+                    eficiente y garantizar que se realicen en el orden correcto.</p>
+                    <br>
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4ij0L89c9ijfT_bArLfGE0xZA96nmiT9nhOtu6CPZ8xpb2Ge2" alt="" class="img">
+                <section id="seccion5">
+                    <h2>.</h2>
+                </section>
+                <h2>4.2.3 Organización de Direcciones de Memoria</h2>
+
+                <p>La organización de direcciones de memoria es un aspecto fundamental en la arquitectura de
+                    computadoras.
+                    Las direcciones de memoria se utilizan para acceder a datos y programas almacenados en la memoria
+                    principal. Algunos conceptos clave relacionados con la organización de direcciones de
+                    memoria son:</p>
+                <br>
+                <p>- Espacio de direcciones: Es el rango completo de direcciones de memoria que un sistema puede
+                    utilizar.
+                    Puede variar según la arquitectura y la capacidad del sistema.</p>
+                <br>
+                <p>- Direcciones físicas y virtuales: Las direcciones físicas se refieren a las ubicaciones físicas
+                    reales
+                    en la memoria, mientras que las direcciones virtuales son direcciones que se utilizan en el nivel
+                    lógico
+                    y se traducen a direcciones físicas por medio de una unidad de administración de memoria.</p>
+                <br>
+                <p> - Mapeo de direcciones: Es el proceso de asignar direcciones virtuales a direcciones físicas. Esto
+                    implica la gestión de la memoria virtual y la traducción de direcciones virtuales a direcciones
+                    físicas
+                    reales.</p>
+                <br>
+                <p>- Jerarquía de memoria: Los sistemas de computadoras suelen tener múltiples niveles de memoria, como
+                    caché, memoria principal y almacenamiento secundario. La organización de direcciones de memoria debe
+                    considerar la jerarquía y el acceso eficiente a los diferentes niveles de memoria.</p>
+                    <br>
+                    <img src="https://www.zator.com/Hardware/Images_esp/H5a-F2.gif" alt="" class="img3">
+                    <section id="seccion6">
+                    <h2>.</h2>
+                </section>
+                <h2>4.3 Sistema de memoria (compartida)</h2>
+                <p>El sistema de memoria compartida es una arquitectura de computadoras en la cual múltiples
+                    procesadores
+                    comparten el acceso a una única memoria física. En este tipo de sistema, los procesadores pueden
+                    leer y
+                    escribir en la memoria compartida, lo que les permite intercambiar información y colaborar en la
+                    ejecución de tareas.</p>
+                <br>
+                <p>El principal beneficio de un sistema de memoria compartida es la facilidad de programación. Los
+                    procesadores pueden comunicarse entre sí mediante la memoria compartida, lo que simplifica la
+                    implementación de algoritmos paralelos y distribuidos. Además, permite el uso de estructuras de
+                    datos
+                    compartidas, como variables y arreglos, lo que facilita la cooperación entre los procesadores.</p>
+                <br>
+                <p>Para lograr un acceso coherente y ordenado a la memoria compartida, se utilizan protocolos de
+                    coherencia
+                    de caché. Estos protocolos aseguran que los procesadores vean los cambios realizados por otros
+                    procesadores en un orden consistente y que no ocurran inconsistencias debido a la concurrencia.</p>
+                <br>
+                <p>Existen diferentes enfoques para implementar un sistema de memoria compartida. Uno de los enfoques
+                    más
+                    comunes es utilizar un bus de sistema, donde todos los procesadores se conectan al mismo bus para
+                    acceder a la memoria compartida. Otro enfoque es utilizar una red de interconexión, donde los
+                    procesadores se comunican a través de una red dedicada.</p>
+                <br>
+                <p>A medida que aumenta el número de procesadores en un sistema de memoria compartida, pueden surgir
+                    problemas de escalabilidad. El acceso simultáneo a la memoria compartida por parte de múltiples
+                    procesadores puede generar cuellos de botella y degradar el rendimiento global del sistema. Para
+                    mitigar
+                    estos problemas, se utilizan técnicas como la localidad de datos, la partición de memoria y la
+                    distribución de carga.</p>
+                    <br>
+                    <img src="https://slideplayer.es/slide/5313288/17/images/5/Arquitectura+centralizada+de+memoria+compartida.jpg" alt="" class="img3">
+
+
+                <h2>Multiprocesadores</h2>
+
+                <p>Un multiprocesador es un sistema de computación que consta de múltiples procesadores independientes
+                    que
+                    trabajan en conjunto para ejecutar tareas. A diferencia de un sistema de un solo procesador, en un
+                    multiprocesador varios procesadores pueden operar simultáneamente, lo que permite un mayor
+                    rendimiento y
+                    capacidad de procesamiento.</p>
+                <br>
+                <p>La utilización de multiprocesadores tiene varias ventajas. En primer lugar, permite la ejecución
+                    paralela de tareas, lo que acelera el procesamiento y mejora la capacidad de respuesta del sistema.
+                    Además, los multiprocesadores ofrecen mayor capacidad de cómputo, lo que es especialmente
+                    beneficioso
+                    para aplicaciones intensivas en términos de cálculos o tareas que requieren un gran número de hilos
+                    de
+                    ejecución.</p>
+                <br>
+                <p>Existen diferentes tipos de multiprocesadores, como los multiprocesadores simétricos (SMP) y los
+                    multiprocesadores asimétricos (AMP). En un SMP, todos los procesadores comparten el mismo acceso a
+                    la
+                    memoria y tienen la misma jerarquía de caché, lo que permite una mayor transparencia y facilidad de
+                    programación. Por otro lado, en un AMP, los procesadores pueden tener diferentes características y
+                    capacidades, lo que permite una asignación más eficiente de tareas dependiendo de sus requisitos.
+                </p>
+                <br>
+                <p>Una de las consideraciones importantes en los multiprocesadores es la comunicación y sincronización
+                    entre los procesadores. Se deben establecer mecanismos de comunicación y coordinación para
+                    garantizar
+                    que los procesadores trabajen de manera coherente y eviten conflictos en el acceso a los recursos
+                    compartidos, como la memoria o los periféricos.</p>
+                <br>
+                <p>Además, en los multiprocesadores es esencial garantizar la eficiencia energética y el equilibrio de
+                    carga. La distribución de tareas entre los procesadores debe ser equilibrada para aprovechar al
+                    máximo
+                    los recursos disponibles y minimizar los cuellos de botella.</p>
+                <section id="seccion7">
+                    <h2>.</h2>
+                </section>
+                <h2>4.3.1 Redes de interconexión dinámica (indirecta)</h2>
+                <p> Se refiere a un tipo de arquitectura de redes de
+                    computadoras en la que los dispositivos están conectados mediante una red de interconexión que
+                    permite
+                    la comunicación y transferencia de datos entre ellos de manera eficiente. En este contexto, existen
+                    dos
+                    configuraciones principales: redes de medio compartido y redes conmutadas. A continuación, se
+                    describirán cada una de estas configuraciones en detalle.</p>
+                <br>
+                <h2>Medio Compartido</h2>
+                <p>En las redes de medio compartido, múltiples dispositivos comparten un mismo canal de comunicación o
+                    medio físico para transmitir y recibir datos. En este tipo de redes, los datos enviados por un
+                    dispositivo pueden ser escuchados por todos los demás dispositivos conectados al medio compartido.
+                    La
+                    transmisión de datos se realiza mediante técnicas de acceso al medio, como el acceso múltiple por
+                    detección de portadora con detección de colisiones (CSMA/CD). Este método permite que los
+                    dispositivos
+                    compartan el medio de manera equitativa, evitando colisiones entre los datos enviados por diferentes
+                    dispositivos. </p>
+                    <br>
+                    <img src="https://cdn-icons-png.flaticon.com/512/3518/3518210.png" alt="" class="img3">
+                <br>
+                <p>A pesar de su simplicidad, las redes de medio compartido presentan limitaciones en términos de
+                    rendimiento y escalabilidad. Cuando varios dispositivos intentan transmitir datos simultáneamente,
+                    se
+                    producen colisiones y se necesita un mecanismo de retransmisión para reenviar los datos. Esto puede
+                    generar congestión y degradar el rendimiento de la red. Además, a medida que se agregan más
+                    dispositivos
+                    a la red, el ancho de banda disponible para cada dispositivo se reduce, lo que afecta negativamente
+                    la
+                    velocidad de transferencia de datos.</p>
+                <br>
+                <h2>Conmutadas</h2>
+                <p>Las redes conmutadas, por otro lado, utilizan dispositivos de conmutación, como conmutadores o
+                    routers,
+                    para establecer conexiones dedicadas entre los dispositivos conectados. En este caso, cada
+                    dispositivo
+                    tiene un enlace dedicado y exclusivo a través del cual puede comunicarse con otros dispositivos en
+                    la
+                    red. Esto permite una comunicación más eficiente y elimina el problema de las colisiones presentes
+                    en
+                    las redes de medio compartido.</p>
+                <br>
+                <p>En una red conmutada, los dispositivos se conectan a través de puertos individuales en un conmutador,
+                    y
+                    el conmutador se encarga de dirigir el tráfico de datos a través de los puertos correctos hacia su
+                    destino. Al establecer conexiones punto a punto, las redes conmutadas ofrecen un mayor rendimiento y
+                    mayor ancho de banda para cada dispositivo. Además, la segmentación de la red permite un mejor
+                    control
+                    del tráfico y una mayor seguridad, ya que los datos no son accesibles directamente por todos los
+                    dispositivos conectados.</p>
+                <br>
+                <p>Las redes conmutadas son especialmente útiles en entornos donde se requiere un alto rendimiento, como
+                    en
+                    centros de datos o redes empresariales. Estas redes permiten una comunicación eficiente entre los
+                    dispositivos conectados, minimizando las colisiones y maximizando el rendimiento general de la red.
+                </p>
+                <section id="seccion8">
+                    <h2>.</h2>
+                </section>
+                <h2>4.4 Sistemas de memoria distribuida</h2>
+                
+               <p> Los sistemas de memoria distribuida son una parte fundamental de la arquitectura de computadoras
+                moderna. Estos sistemas permiten el acceso a la memoria desde múltiples nodos de procesamiento
+                distribuidos en una red. En este contexto, se pueden destacar los multicomputadores como una forma común
+                de implementación de sistemas de memoria distribuida. Además, las redes de interconexión estáticas son
+                utilizadas para proporcionar una comunicación eficiente entre los nodos en estos sistemas. A
+                continuación, exploraremos estos temas en detalle.</p>
+<br>
+                <h2>Multicomputadores</h2>
+               <p>Los multicomputadores son sistemas que utilizan múltiples nodos de procesamiento independientes y
+                distribuidos para llevar a cabo tareas de cómputo. Cada nodo en un multicomputador puede tener su propia
+                memoria local, y la comunicación entre los nodos se realiza a través de una red de interconexión. Estos
+                sistemas son altamente escalables, lo que significa que pueden manejar una gran cantidad de tareas
+                simultáneamente al aprovechar el poder de procesamiento distribuido.</p> 
+<br>
+                <p>Los multicomputadores se utilizan en una amplia gama de aplicaciones, como simulaciones científicas,
+                procesamiento de imágenes y renderizado de gráficos. Debido a la distribución de la memoria y los
+                recursos de cómputo, los multicomputadores pueden proporcionar un alto rendimiento y paralelismo en el
+                procesamiento de tareas complejas.</p> 
+                <br>
+                <img src="https://sites.google.com/site/soiiunidad4y5/_/rsrc/1467895327511/home/Figura1.gif" alt="" class="img3">
+                <section id="seccion9">
+                    <h2>.</h2>
+                </section>
+                <h2> 4.4.1 Redes de interconexión estáticas</h2>
+               
+                <p>En los multicomputadores, las redes de interconexión estáticas se utilizan para establecer la
+                comunicación entre los nodos de procesamiento. Estas redes se caracterizan por tener una topología fija,
+                lo que significa que la conexión física entre los nodos no cambia durante la ejecución del sistema.
+                Algunas de las topologías comunes utilizadas en las redes de interconexión estáticas son la malla, el
+                toro y el hipercubo.</p> 
+<br>
+                <p>La elección de la topología de red adecuada depende de varios factores, como la cantidad de nodos, la
+                distancia de comunicación requerida, el costo y la confiabilidad. Las redes de interconexión estáticas
+                pueden proporcionar una comunicación eficiente entre los nodos, minimizando los tiempos de latencia y
+                maximizando el ancho de banda disponible para el intercambio de datos.</p> 
+                <section id="seccion10">
+                    <h2>.</h2>
+                </section>
+                <h2>4.5 Casos para estudio</h2>
+                
+                <p>Existen numerosos casos interesantes que pueden ser estudiados en el ámbito de los sistemas de memoria
+                distribuida y los multicomputadores. Algunos ejemplos destacados son:</p> 
+<br>
+                <p>1. El uso de sistemas de memoria distribuida en aplicaciones de Big Data: Con el crecimiento exponencial
+                de los datos en la era digital, los sistemas de memoria distribuida se han vuelto cruciales para el
+                procesamiento y análisis eficiente de grandes volúmenes de información.</p> 
+<br>
+                <p>2. Implementación de multicomputadores en entornos de supercomputación: Los multicomputadores se
+                utilizan ampliamente en la construcción de supercomputadoras, que son sistemas de cómputo de alto
+                rendimiento utilizados para resolver problemas complejos en campos como la física, la biología y la
+                meteorología.</p> 
+<br>
+                <p>3. Sistemas de memoria distribuida en entornos de nube: Con la proliferación de servicios en la nube,
+                los sistemas de memoria distribuida desempeñan un papel clave en la escalabilidad y la distribución eficiente de los recursos de cómputo y
+                almacenamiento en la nube.</p> 
+<br>
+                <p>4. Investigación en nuevas topologías de red para sistemas de memoria distribuida: Se continúa
+                investigando y desarrollando nuevas topologías de redes de interconexión estáticas que puedan mejorar el
+                rendimiento y la eficiencia de los sistemas de memoria distribuida.</p> 
+
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>

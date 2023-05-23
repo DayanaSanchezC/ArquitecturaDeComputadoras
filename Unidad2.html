@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="h.css">
+    <title>Unidad 2</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Unidad1.html">Unidad 1</a></li>
+            <li><a href="Unidad2.html">Unidad 2</a></li>
+            <li><a href="Unidad3.html">Unidad 3</a></li>
+            <li><a href="Unidad4.html">Unidad 4</a></li>
+            <li><a href="Practicas.html">Practicas</a></li>
+        </ul>
+    </header>
+    <div class="dropdown">
+        <div class="tab">Temas</div>
+        <div class="dropdown-content">
+            <a href="#seccion1">2.1 ORGANIZACIÓN DEL PROCESADO</a>
+            <a href="#seccion2">2.2 ESTRUCTURA DE REGISTROS</a>
+            <a href="#seccion3">2.2.1 REGISTROS VISIBLES PARA EL USUARIO</a>
+            <a href="#seccion4">2.2.2 REGISTROS DE CONTROL Y ESTADOS</a>
+            <a href="#seccion5">2.2.3 EJEMPLOS DE REGISTROS DE CPU REALES</a>
+            <a href="#seccion6">2.3 EL CICLO DE INSTRUCCIONES</a>
+            <a href="#seccion7">2.3.1 CICLO DE FETCH-DECODE-EXECUTE</a>
+            <a href="#seccion8">2.3.2 SEGMENTACIÓN DE INSTRUCCIONES</a>
+            <a href="#seccion9">2.3.3 CONJUNTO DE INSTRUCCIONES: CARACTERÍSTICAS Y FUNCIONES</a>
+            <a href="#seccion10">2.3.4 MÓDULOS DE DIRECCIONAMIENTO</a>
+            <a href="#seccion11">2.4 CASOS DE ESTUDIO DE CPU REALES</a>
+
+        </div>
+    </div>
+
+    <section class="hero-section">
+        <section class="sec">
+            <div class="cont">
+                <br><br>
+                <section id="seccion1">
+                    <h2>2.1 Organización del procesado</h2>
+                </section>
+                <p> La organización del procesador es un aspecto fundamental en la arquitectura de computadoras, ya que
+                    se encarga de coordinar todas las operaciones y funciones del sistema. El procesador, también
+                    conocido como Unidad Central de Procesamiento (CPU), es el cerebro de la computadora y se compone de
+                    diferentes componentes y subsistemas.</p>
+<br>
+                <p> En general, la organización del procesador incluye la unidad de control, la unidad aritmético-lógica
+                    y los registros. La unidad de control es responsable de interpretar y ejecutar las instrucciones del
+                    programa, mientras que la unidad aritmético-lógica realiza las operaciones matemáticas y lógicas,
+                    como sumas, restas y comparaciones. Los registros son pequeñas áreas de almacenamiento interno de la
+                    CPU que se utilizan para almacenar datos temporales, direcciones de memoria y resultados
+                    intermedios.</p>
+<br>
+                <p>La organización del procesador puede variar según la arquitectura específica de la computadora.
+                    Algunas arquitecturas utilizan un enfoque de conjunto de instrucciones complejas (CISC, por sus
+                    siglas en inglés), donde las instrucciones son más detalladas y pueden realizar múltiples
+                    operaciones en una sola instrucción. Otras arquitecturas, como el conjunto de instrucciones
+                    reducidas (RISC, por sus siglas en inglés), se centran en instrucciones más simples y se enfocan en
+                    la eficiencia y el rendimiento.</p>
+<br>
+                <p>En resumen, la organización del procesador es el conjunto de componentes y subsistemas que permiten
+                    el funcionamiento de la CPU. Comprender cómo está organizado el procesador es esencial para
+                    comprender el funcionamiento de una computadora y su capacidad para ejecutar instrucciones y
+                    procesar datos.</p>
+                    <br>
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6jjFXI8_bgt8_rTnnKj6v1wSiQlsTleUsEAHIVtDv8AJkH6D5" alt="" class="img">
+
+                <section id="seccion2">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.2 Estructura de registros</h2>
+
+                <p>En arquitectura de computadoras, los registros son unidades de almacenamiento de alta velocidad
+                    ubicadas en la CPU. Estas pequeñas áreas de almacenamiento se utilizan para almacenar datos
+                    temporales, direcciones de memoria y resultados intermedios durante la ejecución de instrucciones.
+                </p>
+<br>
+                <p>Existen diferentes tipos de registros en una arquitectura de computadoras, pero se pueden clasificar
+                    en dos categorías principales: registros visibles para el usuario y registros de control y estados.
+                </p>
+                <br>
+                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRpHLnzwmg4fkjSrU29YieT2WbxyT7wJz4QaRNiOY3yvKJDsOiG" alt="" class="img">
+
+                <section id="seccion3">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.2.1 Registros visibles para el usuario</h2>
+
+                <p>Los registros visibles para el usuario son aquellos que se utilizan para almacenar datos que son
+                    accesibles directamente por el programador o el usuario del sistema. Estos registros son utilizados
+                    para realizar operaciones aritméticas, lógicas y de almacenamiento de datos. Algunos ejemplos
+                    comunes de registros visibles son:</p>
+<br>
+                <p> - Registro de datos (Data Register): Almacena datos que son utilizados por las instrucciones del
+                    programa.</p>
+                <p>- Registro de dirección (Address Register): Almacena la dirección de memoria de los datos que se van
+                    a leer o escribir.</p>
+                <p>- Registro de índice (Index Register): Utilizado para realizar operaciones de desplazamiento y
+                    cálculos de dirección.</p>
+                <p>- Registro de acumulador (Accumulator): Almacena los resultados de operaciones aritméticas y
+                    lógicas.</p>
+<br>
+                <p>Estos registros visibles para el usuario son importantes porque permiten a los programadores y
+                    usuarios interactuar con la computadora de manera más directa y manipular los datos
+                    según sea necesario.</p>
+
+                <section id="seccion4">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.2.2 Registros de control y estados</h2>
+
+
+                <p>Además de los registros visibles, existen los registros de control y estados que se utilizan para
+                    gestionar y controlar el funcionamiento interno del procesador. Estos registros están involucrados
+                    en el ciclo de instrucción, la ejecución de interrupciones y la administración del estado de la CPU.
+                    Algunos ejemplos de registros de control y estados son:</p>
+<br>
+                <p> - Program Counter (PC): Almacena la dirección de la siguiente instrucción a ejecutar.</p>
+                <p> - Registro de instrucción (Instruction Register): Almacena la instrucción actualmente en ejecución.
+                </p>
+                <p>- Registro de banderas (Flags Register): Almacena bits que indican condiciones o resultados de
+                    operaciones, como el resultado de una operación aritmética o si se produjo un desbordamiento.</p>
+<br>
+                <p>Estos registros de control y estados son esenciales para el funcionamiento adecuado de la CPU, ya
+                    que controlan el flujo de instrucciones, gestionan interrupciones y mantienen información sobre el
+                    estado actual de la computadora.</p>
+                    <br>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRr15Ueo-XmXXM9lng7qitXyVnmOAR_cV-OZVZPWGvVCwqFguIM" alt="" class="img">
+
+                <section id="seccion5">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.2.3 Ejemplos de registros de CPU reales</h2>
+
+
+                <p> En los procesadores reales, los conjuntos de registros pueden variar según la arquitectura
+                    específica. A continuación, se presentan algunos ejemplos de registros utilizados en procesadores
+                    populares:</p>
+<br>
+                <p>- Procesadores x86: Estos procesadores utilizan una arquitectura CISC y tienen varios conjuntos de
+                    registros. Algunos de los registros más comunes son EAX (Acumulador Extendido), EBX (Base
+                    Extendida), ECX (Contador Extendido) y EDX (Datos Extendidos). Estos registros se pueden acceder en
+                    tamaños diferentes (8, 16, 32 o 64 bits) según el modo de operación del procesador.</p>
+<br>
+                <p> - Procesadores ARM: Los procesadores ARM utilizan una arquitectura RISC y tienen un conjunto de
+                    registros de propósito general (General-Purpose Registers) llamados R0, R1, R2, etc. También cuentan
+                    con registros especiales, como el Program Counter (PC) y el Registro de Estado del Programa (CPSR),
+                    que almacenan información sobre el estado de la CPU.</p>
+<br>
+                <p> - Procesadores MIPS: Los procesadores MIPS también siguen una arquitectura RISC y tienen un conjunto
+                    de 32 registros de propósito general, numerados del $0 al $31. Estos registros se pueden acceder
+                    directamente en instrucciones y se utilizan para almacenar datos y direcciones.</p>
+<br>
+                <p>Estos son solo ejemplos de registros utilizados en diferentes arquitecturas de procesadores. Cada
+                    arquitectura puede tener su propio conjunto de registros con nombres y funciones específicas, pero
+                    todos desempeñan un papel crucial en el funcionamiento y rendimiento de la CPU.</p>
+
+                    <section id="seccion6">
+                        <h2>.</h2>
+                    </section>
+    
+                    <h2>2.3 El ciclo de instrucciones</h2>
+                
+               <p> El ciclo de instrucciones es una parte fundamental de la arquitectura de computadoras. Se refiere al
+                proceso mediante el cual una computadora ejecuta una instrucción, que es la unidad básica de trabajo en
+                un programa. El ciclo de instrucciones generalmente consta de tres etapas: fetch (obtención), decode
+                (decodificación) y execute (ejecución). </p>
+                <section id="seccion7">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.3.1 Ciclo de fetch-decode-execute</h2>
+                
+
+               <p> El ciclo de fetch-decode-execute es el núcleo del procesamiento de instrucciones en una computadora. En
+                la etapa de fetch, la CPU (Unidad Central de Procesamiento) obtiene la siguiente instrucción del
+                programa almacenado en la memoria principal. La instrucción se lee de la memoria y se coloca en un
+                registro interno de la CPU llamado registro de instrucciones.</p>
+<br>
+               <p>En la etapa de decode, la CPU interpreta la instrucción que se ha obtenido. Esto implica determinar qué
+                operación debe realizarse y qué datos se necesitan para llevar a cabo dicha operación. La CPU decodifica
+                la instrucción y extrae los operandos necesarios, si los hay, para su posterior uso.</p> 
+<br>
+               <p>Finalmente, en la etapa de execute, la CPU realiza la operación especificada por la instrucción. Esto
+                puede implicar realizar cálculos matemáticos, acceder a la memoria para obtener datos o almacenar
+                resultados, o realizar otras tareas dependiendo de la instrucción específica. Una vez completada la
+                ejecución, el ciclo se repite para la siguiente instrucción.</p> 
+                <br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlBRB9yzayyKlY0DrihDQteUnZ7s85LsldmzyGWC_0nGUuKkNR" alt="" class="img">
+
+                <section id="seccion8">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.3.2 Segmentación de instrucciones</h2>
+                
+
+               <p> La segmentación de instrucciones es una técnica utilizada en algunas arquitecturas de computadoras para
+                mejorar el rendimiento del procesamiento de instrucciones. En lugar de esperar a que una instrucción
+                complete todo el ciclo de fetch-decode-execute antes de pasar a la siguiente, la segmentación divide el
+                proceso en etapas más pequeñas y las ejecuta en paralelo.</p>
+<br>
+               <p> En una arquitectura segmentada, varias instrucciones pueden estar en diferentes etapas del ciclo al
+                mismo tiempo. Por ejemplo, mientras la CPU está ejecutando la etapa de execute de una instrucción, puede
+                estar obteniendo la siguiente instrucción en la etapa de fetch y decodificando la instrucción anterior
+                en la etapa de decode. Esto permite un solapamiento de las diferentes etapas del ciclo y un mejor
+                aprovechamiento de los recursos de la CPU.</p>
+
+                <section id="seccion9">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.3.3 Conjunto de instrucciones: Características y funciones</h2>
+                
+
+               <p>El conjunto de instrucciones de una arquitectura de computadoras se refiere al conjunto de operaciones
+                que puede realizar la CPU y los formatos en los que se representan las instrucciones. Cada arquitectura
+                tiene su propio conjunto de instrucciones, que está determinado por las necesidades y características
+                específicas del diseño de la CPU.</p> 
+<br>
+               <p> Las instrucciones en un conjunto de instrucciones pueden variar en complejidad y funcionalidad. Pueden
+                incluir operaciones aritméticas y lógicas básicas, transferencia de datos entre registros y memoria,
+                acceso a dispositivos de entrada/salida y operaciones de control de flujo, entre otros. Además, las
+                instrucciones pueden tener diferentes formatos, como instrucciones de un solo operando, instrucciones de
+                dos operandos o instrucciones con direccionamiento directo o indirecto.</p>
+<br>
+                <p>La elección del conjunto de instrucciones tiene un impacto significativo en el rendimiento y la flexibilidad de una
+                arquitectura de computadoras. Un conjunto de instrucciones bien diseñado debe equilibrar la complejidad
+                y la funcionalidad para permitir una amplia gama de aplicaciones y al mismo tiempo optimizar el
+                rendimiento y la eficiencia del procesador.</p> 
+
+                <section id="seccion10">
+                    <h2>.</h2>
+                </section>
+
+                <h2> 2.3.4 Módulos de direccionamiento</h2>
+               
+
+                <p> Los módulos de direccionamiento son componentes de una arquitectura de computadoras que se encargan de
+                calcular o generar las direcciones de memoria utilizadas por las instrucciones. Estos módulos pueden ser
+                circuitos especializados en la CPU o instrucciones específicas que permiten realizar operaciones de
+                direccionamiento.</p>
+<br>
+               <p> El direccionamiento es fundamental para acceder a datos en la memoria principal de la computadora. Los
+                módulos de direccionamiento pueden incluir circuitos aritméticos que realizan cálculos de suma o resta
+                para obtener direcciones relativas a partir de valores almacenados en registros. También pueden incluir
+                circuitos de desplazamiento que permiten el acceso a elementos individuales en estructuras de datos como
+                matrices o registros.</p>
+<br>
+                <p>La elección y diseño de los módulos de direccionamiento depende en gran medida de la arquitectura
+                específica y los requisitos de rendimiento. Los módulos de direccionamiento eficientes y optimizados
+                pueden reducir el tiempo de acceso a los datos y mejorar el rendimiento general del sistema.</p> 
+                <br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/DireccionamientoDirecto.png/220px-DireccionamientoDirecto.png" alt="" class="img">
+
+                <section id="seccion11">
+                    <h2>.</h2>
+                </section>
+
+                <h2>2.4 Casos de estudio de CPU reales</h2>
+              
+
+                <p> En el campo de la arquitectura de computadoras, existen numerosos casos de estudio de CPU (Unidad
+                Central de Procesamiento) reales que han sido desarrolladas por diferentes fabricantes y han influido en
+                el diseño de sistemas informáticos.</p>
+<br>
+               <p> Uno de los casos de estudio más destacados es la arquitectura x86, desarrollada por Intel y AMD. Los
+                procesadores x86 han sido ampliamente utilizados en computadoras personales y servidores durante
+                décadas. Estos procesadores han evolucionado desde los primeros modelos de 16 bits hasta los actuales
+                procesadores de 64 bits, ofreciendo un conjunto de instrucciones amplio y compatibilidad con sistemas
+                operativos y aplicaciones existentes.</p>
+<br>
+               <p> Otro caso de estudio es la arquitectura ARM (Advanced RISC Machine), que se ha convertido en un estándar
+                en dispositivos móviles y embebidos. Los procesadores ARM son conocidos por su eficiencia energética y
+                su diseño de conjunto de instrucciones reducido, lo que los hace adecuados para dispositivos con
+                restricciones de energía y tamaño.</p>
+<br>
+                <p>Además, existen arquitecturas como MIPS (Microprocessor without Interlocked Pipeline Stages), utilizada
+                en sistemas embebidos y en algunos supercomputadores, y PowerPC, utilizado en computadoras personales y
+                servidores.</p> 
+<br>
+                <p> Estos casos de estudio de CPU reales representan ejemplos concretos de cómo los principios de diseño de
+                la arquitectura de computadoras se aplican en sistemas prácticos. Cada uno de ellos tiene
+                características distintivas que se adaptan a diferentes necesidades y aplicaciones, y han influido en el
+                desarrollo de la tecnología informática a lo largo de los años.</p>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
