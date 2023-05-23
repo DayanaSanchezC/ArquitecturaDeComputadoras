@@ -171,10 +171,7 @@ header ul li a:hover button {
     background-size: 260px;
     
   }
-  .card-container:hover .card:not(:hover) {
-    transform: scale(.9);
-    filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
-  }
+
   
  
   .content {
@@ -265,6 +262,10 @@ header ul li a:hover button {
       font-size: 14px;
     }
     
+    .card-container:hover .card:not(:hover) {
+      transform: scale(.9);
+      filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
+    }
     .container {
       width: 90%;
       margin: 0 auto;
@@ -280,6 +281,11 @@ header ul li a:hover button {
       font-size: 14px;
     }
     
+    .card-container{
+      flex-direction: column;
+      margin-top: 10vh;
+      align-items: center;
+    }
     .container {
       width: 90%;
       margin: 0 auto;
