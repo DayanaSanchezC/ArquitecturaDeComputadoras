@@ -182,7 +182,10 @@ h1 {
   transform: scale(1.15) translateZ(0);
   background-size: 260px;
 }
-
+.card-container:hover .card:not(:hover) {
+  transform: scale(.9);
+  filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
+}
 .content {
   top: 50%;
   left: 0;
@@ -324,6 +327,7 @@ h1 {
     align-items: center;
     padding: 20px;
   }
+  
 
   .container {
     width: 90%;
