@@ -267,9 +267,9 @@ h1 {
   width: 35%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 901px) {
   /* Estilos para dispositivos con un ancho máximo de 900px (celulares y tabletas) */
-
+  
   body {
     font-size: 14px;
   }
@@ -324,13 +324,22 @@ h1 {
     align-items: center;
     padding: 20px;
   }
-  
 
   .container {
     width: 90%;
     margin: 0 auto;
   }
 }
+
+@media (hover: hover) and (pointer: fine) {
+  /* Estilos para dispositivos con soporte de desplazamiento con el puntero (computadoras) */
+  
+  .card-container:hover .card:not(:hover) {
+    transform: scale(.9);
+    filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
+  }
+}
+
 
 @media only screen and (max-width: 767px) {
   /* Estilos para dispositivos con un ancho máximo de 767px (celulares y tabletas pequeñas) */
