@@ -29,8 +29,8 @@ header ul {
   display: flex;
   justify-content: flex-end;
   margin: 0;
-  overflow-x: auto; /* Agrega desplazamiento horizontal para el menú en dispositivos móviles */
-  padding-bottom: 10px; /* Agrega un espacio inferior para evitar que se corte el contenido */
+  overflow-x: auto;
+  padding-bottom: 10px; 
   white-space: nowrap;
 }
 
@@ -224,8 +224,8 @@ h1 {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   font-size: 11px;
-  width: 350px; /* Ajuste del ancho */
-  height: 550px; /* Ajuste del alto */
+  width: 350px; 
+  height: 550px; 
 }
 
 .dropdown:hover .dropdown-content {
@@ -268,23 +268,21 @@ h1 {
 }
 
 @media only screen and (max-width: 901px) {
-  /* Estilos para dispositivos con un ancho máximo de 900px (celulares y tabletas) */
-  
   body {
     font-size: 14px;
   }
 
   header {
     padding: 10px;
-    font-size: 10px; /* Reduce el espacio de padding en dispositivos móviles más pequeños */
+    font-size: 10px; 
   }
 
   header ul {
-    justify-content: center; /* Centra los elementos del menú horizontalmente */
-    align-items: center; /* Centra los elementos del menú verticalmente */
-    white-space: nowrap; /* Evita que los elementos se dividan en varias líneas */
-    overflow-x: auto; /* Agrega desplazamiento horizontal para el menú en dispositivos móviles */
-    padding-bottom: 10px; /* Agrega un espacio inferior para evitar que se corte el contenido */
+    justify-content: center; 
+    align-items: center;
+    white-space: nowrap; 
+    overflow-x: auto; 
+    padding-bottom: 10px; 
   }
 
   header ul li {
@@ -332,8 +330,6 @@ h1 {
 }
 
 @media (hover: hover) and (pointer: fine) {
-  /* Estilos para dispositivos con soporte de desplazamiento con el puntero (computadoras) */
-  
   .card-container:hover .card:not(:hover) {
     transform: scale(.9);
     filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
@@ -342,23 +338,21 @@ h1 {
 
 
 @media only screen and (max-width: 767px) {
-  /* Estilos para dispositivos con un ancho máximo de 767px (celulares y tabletas pequeñas) */
-
   body {
     font-size: 14px;
   }
 
   header {
     padding: 10px;
-    font-size: 10px; /* Reduce el espacio de padding en dispositivos móviles más pequeños */
+    font-size: 10px; 
   }
 
   header ul {
-    justify-content: center; /* Centra los elementos del menú horizontalmente */
-    align-items: center; /* Centra los elementos del menú verticalmente */
-    white-space: nowrap; /* Evita que los elementos se dividan en varias líneas */
-    overflow-x: auto; /* Agrega desplazamiento horizontal para el menú en dispositivos móviles */
-    padding-bottom: 10px; /* Agrega un espacio inferior para evitar que se corte el contenido */
+    justify-content: center; 
+    align-items: center;
+    white-space: nowrap; 
+    overflow-x: auto; 
+    padding-bottom: 10px; 
   }
 
   header ul li {
