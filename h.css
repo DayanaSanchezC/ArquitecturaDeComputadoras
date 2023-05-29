@@ -104,6 +104,8 @@ header ul li a:hover button {
 body {
   height: 100%;
   color: #fff;
+  background-size: cover;
+  background-color: #1a1e23;
 }
 
 h2 {
